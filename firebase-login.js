@@ -3,12 +3,13 @@ import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from 'https:/
 
 // Firebase Config
 const firebaseConfig = {
-  apiKey: "AIzaSyA9jyDnF9U111CsOgt8wiayoXYdSgFym44",
-  authDomain: "spectracell-test.firebaseapp.com",
-  projectId: "spectracell-test",
-  storageBucket: "spectracell-test.firebasestorage.app",
-  messagingSenderId: "867376517322",
-  appId: "1:867376517322:web:33d56ac7d0888fcb80a433"
+  apiKey: "AIzaSyBN9i_dRUtuHim0RQO8P1Xx_0SsPAUMjb0",
+  authDomain: "spectracell-provider-auth.firebaseapp.com",
+  projectId: "spectracell-provider-auth",
+  storageBucket: "spectracell-provider-auth.firebasestorage.app",
+  messagingSenderId: "893082488254",
+  appId: "1:893082488254:web:850b33c83cc82d42797def",
+  measurementId: "G-59N0KFCC25"
 };
 
 const app = initializeApp(firebaseConfig);
