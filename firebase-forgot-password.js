@@ -1,3 +1,6 @@
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js';
+import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js';
+
 const firebaseConfig = {
   apiKey: "AIzaSyBN9i_dRUtuHim0RQO8P1Xx_0SsPAUMjb0",
   authDomain: "spectracell-provider-auth.firebaseapp.com",
